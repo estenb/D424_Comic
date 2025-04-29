@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download Comic Collection App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #555;
+    }
+    .download-button {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Comic Collection App</h1>
+    <p>Organize your comic books easily. Download the APK below to install it on your device.</p>
+    <a class="download-button" href="https://github.com/estenb/D424_Comic/releases/download/v1.0/comic-collection.apk" download>
+      📱 Download APK
+    </a>
+  </div>
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
